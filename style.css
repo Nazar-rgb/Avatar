@@ -56,4 +56,37 @@ a {
 background: rgba(43, 74, 97, 0.87);
   }
 
+  .header > .container{
+    display:flex;
+   align-items:center;
+    justify-content:space-between;
+  }
 
+
+
+  .header-list{
+    display: flex;
+  }
+
+
+  .header-links{
+    color: #FFF;
+text-align: center;
+font-size: 20px;
+font-weight: 300;
+
+margin-right: 38px;
+
+  }
+
+  .header-button{
+    color: #26C6EA;
+text-align: justify;
+font-family: HeadlandOne;
+font-size: 20px;
+font-weight: 400;
+width: 141px;
+height: 41.694px;
+flex-shrink: 0;
+  }
+  
