@@ -54,6 +54,7 @@ a {
     padding-bottom: 39px;
 
 background: rgba(43, 74, 97, 0.87);
+
   }
 
   .header > .container{
@@ -89,4 +90,9 @@ width: 141px;
 height: 41.694px;
 flex-shrink: 0;
   }
-  
+  .hero-text{
+    color: #FFF;
+font-size: 20px;
+font-weight: 400;
+  }
+  /* cytat */
