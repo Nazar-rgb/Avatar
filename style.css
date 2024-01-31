@@ -145,14 +145,14 @@ background-color: #0B0E66;
     padding-bottom: 10px;
   }
 
-.cytat-text-1{
-display: flex;
-justify-content: center;
-align-items: center;
-  color: #0A3853;
-text-align: justify;
-font-size: 36px;
-margin-bottom: 4;
+  .cytat-text-1 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #0A3853;
+    font-size: 36px;
+    margin-bottom: 4px;
 }
 .cytat-text{
   display: flex;
@@ -202,14 +202,14 @@ border: 3px solid #26C7EA;
 background: #0B0E66;
 }
 /* cytat2 */
-.cytat-text-2{
+.cytat-text-1 {
+  text-align: center;
   display: flex;
-justify-content: center;
-align-items: center;
+  justify-content: center;
+  align-items: center;
   color: #0A3853;
-text-align: justify;
-font-size: 36px;
-margin-bottom: 4;
+  font-size: 36px;
+  margin-bottom: 4px;
 }
 /* laugage */
 .laugage{
@@ -236,10 +236,40 @@ margin-bottom: 45px;
   width: 320px;
 height: 240px;
 background-color:rgba(255, 255, 255, 0.70);
-margin-right: 36px;
+
 }
 .laugage-list{
   display: flex;
   flex-wrap: wrap;
-  
+  gap: 24px;
+  flex-basis: calc((100% - 36px) / 3);
+}
+.england{
+  color: #141414;
+text-align: center;
+font-family: HeadlandOne;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 100% */
+margin-top: 36px;
+}
+.language-img{
+  width: 152px;
+height: 40px;
+flex-shrink: 0;
+margin-top: 40px;
+margin-left: 84px;
+}
+.avatar{
+  color: #000;
+text-align: justify;
+font-family: HeadlandOne;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 100% */
+display: flex;
+justify-content: center;
+margin-top: 40px;
 }
