@@ -1,3 +1,11 @@
+:root {
+  --font-family: "Inter", sans-serif;
+  --second-family: "HeadlandOne", sans-serif;
+  --third-family: "Hammersmith One", sans-serif;
+}
+
+
+
 body{
 font-family: 'Inter';
     font-style: normal;
@@ -98,6 +106,16 @@ border: 3px solid #26C7EA;
 background: #0B0E66;
 padding: 9px 36px 7.69px 37px;
   }
+  .header-links:hover,
+  .header-links:focus{
+    color: #94cfff;
+  }
+  .header-button:hover,
+  .header-button:focus{
+    color: #0b0e66;
+    background-color: #26C6EA;
+    border-color: #0B0E66;
+  }
   /* hero */
   .hero{
     background-image: url(./img/bacround.png);
@@ -136,6 +154,12 @@ border: 3px solid #26C7EA;
 background-color: #0B0E66;
 }
 
+.hero-btn:hover,
+.hero-btn:focus{
+  color: #0b0e66;
+    background-color: #26C6EA;
+    border-color: #0B0E66;
+}
 
 
 
@@ -191,9 +215,29 @@ margin-left: 310px;
 }
 
 .trailer-btn{
-
+  font-family: var(--second-family);
+font-weight: 400;
+font-size: 24px;
+text-align: justify;
+color: #26c7ea;
+background-color: #0b0e66;
+border: 3px solid #26c7ea;
+border-radius: 45px 0;
+width: 260px;
+height: 80px;
+margin-left: auto;
+margin-right: auto;
+display: flex;
+align-items: center;
+padding: 25px 18px  25px  17px;
 }
 
+.trailer-btn:hover,
+.trailer-btn:focus{
+  color: #0b0e66;
+    background-color: #26C6EA;
+    border-color: #0B0E66;
+}
 /* laugage */
 .laugage{
   background-image: url(./img/Rectangle20.png);
@@ -286,7 +330,8 @@ margin-top: 25px;
 margin-bottom: 25px;
 }
 .footer-list{
-  
+  display: flex;
+  flex-direction: row;
 }
 .footer-email{
   color: #FFF;
@@ -305,4 +350,5 @@ font-size: 14px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
+
 }
