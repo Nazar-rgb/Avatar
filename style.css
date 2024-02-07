@@ -304,11 +304,13 @@ margin-top: 40px;
 footer{
 background-image: linear-gradient(rgba(43, 74, 97, 0.87),rgba(43, 74, 97, 0.87)),url(./img/Rectangle104.png);
 background-repeat: no-repeat;
-background-size: contain;
+background-size: cover;
 background-position: center;
 margin-left: auto;
 margin-right: auto;
 width: 1440px;
+padding-bottom: 30px;
+padding-top: 30px;
 
 
 }
@@ -327,8 +329,7 @@ margin-right: 80px;
   width: 2px;
 height: 103px;
 background-color: #FFF;
-margin-top: 25px;
-margin-bottom: 25px;
+margin-right: 80px;
 }
 .footer-list{
   display: flex;
